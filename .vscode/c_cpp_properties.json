@@ -1,19 +1,18 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "WASI",
+            "compileCommands": "${workspaceFolder}/bots/ProjectAlpha/compile_commands.json",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/Compumarts/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot/include/**"
+                "${workspaceFolder}/sdk/cpp",
+                "C:/Users/Compumarts/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot/include/**",
+                "C:/Users/Compumarts/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot/include/c++/v1/**"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
+            "defines": [],
             "cStandard": "c17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "windows-gcc-x64",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-clang-x64",
             "compilerPath": "C:/Users/Compumarts/AppData/Local/cambc/wasi-sdk-33/bin/clang++.exe"
         }
     ],
