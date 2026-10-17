@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Compumarts/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/Users/Compumarts/AppData/Local/cambc/wasi-sdk-33/bin/clang++.exe"
+        }
+    ],
+    "version": 4
+}
