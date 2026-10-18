@@ -19,8 +19,8 @@ namespace Bot {
     void play_turn() {
         auto me = cambc::self();
 
+        // Skip actions during channel states (DO NOT call end_turn())
         if (me.is_recalling() || me.is_submitting_gems()) {
-            me.end_turn();
             return;
         }
 
@@ -40,6 +40,6 @@ namespace Bot {
             Farming::execute_turn();
         }
 
-        me.end_turn();
+        // main.cpp handles yielding the turn!
     }
 }
