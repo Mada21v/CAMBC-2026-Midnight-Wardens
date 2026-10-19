@@ -13,7 +13,7 @@ constexpr std::array<cambc::champion_draft, 5> target_composition = {
     cambc::champion_draft::varg,
     cambc::champion_draft::stellar,
     cambc::champion_draft::ren,
-    cambc::champion_draft::marcella
+    cambc::champion_draft::vendetta
 };
 
 // Check if our team already picked a champion
